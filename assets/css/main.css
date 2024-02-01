@@ -3165,7 +3165,7 @@ input, select, textarea {
 			}
 
 			.gallery a.banner img {
-				height: fit-content;
+				height: 12rem;
 				width: calc(200% + 1.25rem);
 			}
 
