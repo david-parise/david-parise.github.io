@@ -3409,7 +3409,7 @@ input, select, textarea {
 				@media screen and (max-width: 480px) {
 
 					#wrapper > section.intro > .content{
-						height: 58vh;
+						height:100%;
 						max-width: none;
 					}
 				}
