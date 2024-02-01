@@ -87,7 +87,6 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
-
 	}
 
 	html {
@@ -2522,6 +2521,25 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+		
+		@media screen and (max-width: 480px) {
+
+			.image.fill {
+				height: fit-content;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+	
+				.image.fill img {
+					height: fit-content;
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+		}
 
 /* List */
 
@@ -3387,6 +3405,16 @@ input, select, textarea {
 					height: 100vh;
 					max-width: none;
 				}
+
+				@media screen and (max-width: 480px) {
+
+					#wrapper > section.intro > .content {
+						height: 58vh;
+						max-width: none;
+					}
+				}
+
+				
 
 			#wrapper > section:last-of-type > header:before {
 				height: 100%;
